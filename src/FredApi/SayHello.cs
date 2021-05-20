@@ -25,7 +25,7 @@ namespace FredApi
             dynamic data = JsonConvert.DeserializeObject(requestBody);
             name = name ?? data?.name;
 
-            string responseMessage = "Hello TH Rosenheim from GitHub Actions ⚡⚡⚡"
+            string responseMessage = "Hello TH Rosenheim from GitHub Actions ⚡⚡⚡";
 
             return new OkObjectResult(responseMessage);
         }
